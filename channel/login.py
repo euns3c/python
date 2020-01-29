@@ -10,8 +10,8 @@ driver.get(url)
 #name=id
 #name=pwd
 
-adm_id='baebs'
-adm_pw='mz@0803'
+adm_id=''
+adm_pw=''
 
 driver.find_element_by_name('id').send_keys(adm_id)
 driver.find_element_by_name('pwd').send_keys(adm_pw)
